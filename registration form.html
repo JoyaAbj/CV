@@ -8,14 +8,14 @@
              <input type="text" id="name" name="Name"/> <br>
             <label for="gender"> Gender:</label> 
              <select id="gender" name="Gender">
-                <option> Select </option>
+                <option style="display: none">Select</option>
                 <option> Female </option>
                 <option> Male </option>
                 <option> Prefer not to say </option>
              </select> <br>
              <label for="interests"> Interests:</label> <br>
-             <input type="checkbox" name="Interests" value="1">Reading <br>
-             <input type="checkbox" name="Interests" value="1">Sports 
+             <input type="checkbox" name="Interests" value="1" checked>Reading <br>
+             <input type="checkbox" name="Interests" value="1"checked>Sports 
         </fieldset>
     </form>
     <form action="process.php">
@@ -27,7 +27,7 @@
             <input type="password" id="pswrd" name="Password:"> <br>
             <label for="cntry"> Country:</label>
             <select name="Country:" id="cntry">
-                <option value="select"> Select</option>
+                <option style="display: none">Select</option>
                 <option value="Lebanon">Lebanon</option>
                 <option value="United States"> United States</option>
                 <option value="Italy">Italy</option>
