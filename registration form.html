@@ -1,0 +1,43 @@
+<html>
+    <body>
+    <h1>Registration forms</h1>
+    <form action="process.php">
+        <fieldset>
+          <legend>Step 1: Personal Information </legend>
+            <label for="name"> Name:</label>
+             <input type="text" id="name" name="Name"/> <br>
+            <label for="gender"> Gender:</label> 
+             <select id="gender" name="Gender">
+                <option> Select </option>
+                <option> Female </option>
+                <option> Male </option>
+                <option> Prefer not to say </option>
+             </select> <br>
+             <label for="interests"> Interests:</label> <br>
+             <input type="checkbox" name="Interests" value="1">Reading <br>
+             <input type="checkbox" name="Interests" value="1">Sports 
+        </fieldset>
+    </form>
+    <form action="process.php">
+        <fieldset>
+          <legend>Step 2: Account Information </legend>
+            <label for="usrname"> Username:</label>
+            <input type="text" id="ursname" name="Username:"> <br>
+            <label for="pswrd"> Password:</label>
+            <input type="password" id="pswrd" name="Password:"> <br>
+            <label for="cntry"> Country:</label>
+            <select name="Country:" id="cntry">
+                <option value="select"> Select</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="United States"> United States</option>
+                <option value="Italy">Italy</option>
+                <option value="spain"> Spain</option>
+            </select> <br>
+            <label for="languges">Preffered Language:</label> <br>
+            <input type="radio" name="English" value="1"> English <br>
+            <input type="radio" name="Spanish" value="2"> Spanish
+        </fieldset>
+        <input type="submit">
+    </form>
+    </body>
+</html>
